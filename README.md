@@ -1,29 +1,20 @@
 # Java Programming Coursework
 
-This repository contains my solutions to Java programming tutorials completed during my coursework.
+This repository contains my solutions to Java programming tutorials completed during the **Introduction to Computer Science** course (Summer Semester 2026).
 
-## Objectives
+Each tutorial includes:
 
-- Practice Java programming
-- Document every problem solved
-- Track progress through tutorials
-- Maintain clean, readable solutions
+- Problem statements
+- Algorithms
+- Pseudocode
+- Java implementations
+- Sample executions
+- Complexity analysis
+- Notes and corrections
 
-## Repository Structure
+---
 
-tutorial-01/
-tutorial-02/
-tutorial-03/
-
-Each tutorial contains:
-
-- Problem statement
-- Solution
-- Explanation
-- Time complexity (where applicable)
-- Concepts learned
-
-## Progress
+## Tutorials
 
 | Tutorial | Status |
 |----------|--------|
