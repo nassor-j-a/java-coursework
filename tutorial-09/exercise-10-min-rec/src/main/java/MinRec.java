@@ -4,7 +4,7 @@ public class MinRec {
 
     // Exercise 10-10 MinRec - Final Exam 2016
 
-    public static int MinRec(int[] array) {
+    public static int MinReci(int[] array) {
 
         // Base case: one element is automatically the smallest
         if (array.length == 1) {
@@ -19,7 +19,7 @@ public class MinRec {
         }
 
         // Recursively find the smallest value
-        int smallest = MinRec(smallerArray);
+        int smallest = MinReci(smallerArray);
 
         // Compare the last element with the recursive result
         if (array[array.length - 1] < smallest) {
@@ -35,8 +35,8 @@ public class MinRec {
         int[] b = {5, 2};
         int[] c = {6, 6};
 
-        System.out.println(MinRec(a));
-        System.out.println(MinRec(b));
-        System.out.println(MinRec(c));
+        System.out.println(MinReci(a));
+        System.out.println(MinReci(b));
+        System.out.println(MinReci(c));
     }
 }
