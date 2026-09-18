@@ -103,5 +103,6 @@ public class SmallestLargestMean {
         double mean = calculateMean(numbers);
 
         System.out.println("Arithmetic mean: " + mean);
+        scanner.close();
     }
 }
