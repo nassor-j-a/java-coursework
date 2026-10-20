@@ -14,7 +14,7 @@ public class Flight {
     private String destinationCountry;
 
     // Flight duration in minutes
-    private int duration;
+    //private int duration;
 
     // Scheduled departure time
     private Time departureTime;
@@ -72,7 +72,7 @@ public class Flight {
         this.maximumPassengers = maximumPassengers;
         this.departureCountry = departureCountry;
         this.destinationCountry = destinationCountry;
-        this.duration = duration;
+        //this.duration = duration;
         this.departureTime = departureTime;
     }
 
