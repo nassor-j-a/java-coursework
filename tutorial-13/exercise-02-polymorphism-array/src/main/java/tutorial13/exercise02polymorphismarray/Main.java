@@ -1,4 +1,4 @@
-package main.java;
+package tutorial13.exercise02polymorphismarray;
 
 class Animal {
     Animal() {

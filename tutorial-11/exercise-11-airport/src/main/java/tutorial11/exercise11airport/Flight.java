@@ -1,4 +1,4 @@
-package main.java;
+package tutorial11.exercise11airport;
 
 import java.sql.Time;
 
@@ -18,6 +18,9 @@ public class Flight {
 
     // Scheduled departure time
     private Time departureTime;
+
+    // Indicates whether an airport already manages this flight
+    private boolean managedByAirport = false;
 
     /*
      * Default constructor.
@@ -74,6 +77,35 @@ public class Flight {
         this.destinationCountry = destinationCountry;
         //this.duration = duration;
         this.departureTime = departureTime;
+    }
+
+        /*
+    * Returns the flight's maximum passenger capacity.
+    */
+    public int getMaximumPassengers() {
+        return maximumPassengers;
+    }
+
+    /*
+    * Returns the destination country.
+    */
+    public String getDestinationCountry() {
+        return destinationCountry;
+    }
+
+    /*
+    * Checks whether an airport already manages this flight.
+    */
+    boolean isManagedByAirport() {
+        return managedByAirport;
+    }
+
+    /*
+    * Updates the flight's airport-management status.
+    * Package-private: Airport and Flight are in the same package.
+    */
+    void setManagedByAirport(boolean managedByAirport) {
+        this.managedByAirport = managedByAirport;
     }
 
     /*

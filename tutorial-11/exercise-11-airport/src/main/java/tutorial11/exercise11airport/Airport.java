@@ -1,4 +1,4 @@
-package main.java;
+package tutorial11.exercise11airport;
 
 public class Airport {
 

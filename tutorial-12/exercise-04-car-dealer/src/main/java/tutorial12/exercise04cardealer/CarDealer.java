@@ -1,4 +1,4 @@
-package main.java;
+package tutorial12.exercise04cardealer;
 
 import java.util.ArrayList;
 import java.util.Iterator;

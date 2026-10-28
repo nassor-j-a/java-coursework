@@ -1,4 +1,4 @@
-package main.java;
+package tutorial12.exercise05booklibrary;
 
 public class Book {
 

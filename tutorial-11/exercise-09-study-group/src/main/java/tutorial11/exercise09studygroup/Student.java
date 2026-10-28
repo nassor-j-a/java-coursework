@@ -1,4 +1,4 @@
-package main.java;
+package tutorial11.exercise09studygroup;
 
 public class Student {
 
@@ -96,6 +96,19 @@ public class Student {
         this.gpa = gpa;
     }
 
+    /*
+    * Returns the student's name.
+    */
+    public String getName() {
+        return name;
+    }
+
+    /*
+    * Returns the student's faculty.
+    */
+    public String getFaculty() {
+        return faculty;
+    }
     /*
      * Returns the student's name as a String.
      */

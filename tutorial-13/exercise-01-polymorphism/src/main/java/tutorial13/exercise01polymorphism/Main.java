@@ -1,4 +1,4 @@
-package main.java;
+package tutorial13.exercise01polymorphism;
 
 class Animal {
     Animal() {
