@@ -6,6 +6,10 @@ class Animal {
         System.out.println("Animal private");
     }
 
+    void testPrivateMethod() {
+        privateMethod();
+    }
+
     final void finalMethod() {
         System.out.println("Animal final");
     }
@@ -18,6 +22,10 @@ class Dog extends Animal {
         System.out.println("Dog private");
     }
 
+    void testPrivateMethod() {
+        privateMethod();
+    }
+
     // finalMethod() cannot be overridden
 }
 
@@ -27,6 +35,7 @@ public class Main {
 
         Animal a = new Dog();
 
+        a.testPrivateMethod();
         a.finalMethod();
     }
 }
